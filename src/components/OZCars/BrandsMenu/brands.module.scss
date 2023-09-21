@@ -1,0 +1,16 @@
+.brandsBlock{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    & .link{
+        margin: 5px;
+        padding: 5px;
+        background-color: darkgray;
+        color: black;
+        border-radius: 20px;
+        text-decoration: none;
+    }    
+}

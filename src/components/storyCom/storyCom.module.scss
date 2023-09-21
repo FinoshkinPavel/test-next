@@ -1,0 +1,9 @@
+@mixin wh ($w, $h){
+    width: $w;
+    height: $h;
+}
+
+.storytest{
+    @include wh(100px, 100px);
+    background-color: blueviolet;
+}

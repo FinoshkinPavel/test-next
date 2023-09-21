@@ -1,0 +1,11 @@
+.ozCarsLayout{
+    width: 1080px;
+}
+
+.brandCarsBlock{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    grid-row-gap: 12px;
+}
